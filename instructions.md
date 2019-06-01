@@ -30,7 +30,7 @@ with incomplete environment.
 ```bash
 conda create -n pycon-workshop python=3.7
 conda activate pycon-workshop
-conda install pandas matplotlib seaborn
+conda install pandas matplotlib seaborn sqlalchemy html5lib beautifulsoup4
 conda install jupyter
 conda install jupyterlab   # Optional
 ```
