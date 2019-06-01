@@ -5,7 +5,9 @@
 
 ## Instructions
 
-Please read and follow [the workshop instructions](instructions.md) carefully.
+Please read and follow [the workshop instructions](instructions.md) carefully. 
+
+We are *progressively updating* this repository. Ideally, *clone or update this repository* the day before the workshop starts.
 
 
 ## Contents
