@@ -16,6 +16,8 @@ Welcome to workshop instructions. Please, read them carefully.
 
 - The basic Python scientific stack libraries: **numpy** (1.15+), **matplotlib** (2.2+), **pandas** (0.24+), **seaborn** (0.8+)
 
+- (Recommended): Several other libraries supporting input formats for pandas: **sqlalchemy**, **html5lib**, **beautifulsoup4**, **xlrd**
+
 - The Jupyter notebook environment: **jupyter**
 
 We will not cover installation of any of these libraries in the course. We have no capacity to give support to people who will come
@@ -30,7 +32,7 @@ with incomplete environment.
 ```bash
 conda create -n pycon-workshop python=3.7
 conda activate pycon-workshop
-conda install pandas matplotlib seaborn
+conda install pandas matplotlib seaborn sqlalchemy html5lib beautifulsoup4 xlrd
 conda install jupyter
 conda install jupyterlab   # Optional
 ```
