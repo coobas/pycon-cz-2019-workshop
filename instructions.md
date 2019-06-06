@@ -10,32 +10,54 @@ Welcome to workshop instructions. Please, read them carefully.
 
 - Understand how Jupyter notebooks work.
 
+
 ## Required software
 
 - **Python**. With Windows or MacOS, we strongly recommend using the anaconda distribution. With Linux, you can use Python provided by your package manager. However, minimum version 3.6 is required (and 3.7 recommended).
 
-- The basic Python scientific stack libraries: **numpy** (1.15+), **matplotlib** (2.2+), **pandas** (0.24+), **seaborn** (0.8+)
+- The basic Python [scientific stack libraries](https://www.scipy.org/about.html): **numpy**, **matplotlib**, **pandas**, **seaborn** (in their up to date versions)
 
-- (Recommended): Several other libraries supporting input formats for pandas: **sqlalchemy**, **html5lib**, **beautifulsoup4**, **xlrd**
+- The Jupyter notebook environment: [**jupyter**](https://jupyter.org/)
 
-- The Jupyter notebook environment: **jupyter**
+- [**Git**](https://git-scm.com/) You will need to clone this repository.
 
 We will not cover installation of any of these libraries in the course. We have no capacity to give support to people who will come
 with incomplete environment.
 
-### Installation guide using Anaconda (recommended)
+
+### Cloning this repository
+
+```bash
+git clone https://github.com/coobas/pycon-cz-2019-workshop.git
+```
+
+*Not recommended:* If Git is not working, you can fall back to downloading the latest version from https://github.com/coobas/pycon-cz-2019-workshop/archive/master.zip.
+
+
+### Python installation guide using Anaconda (recommended)
 
 1) Download and install Python from the anaconda website: https://www.anaconda.com/distribution/. Follow the instructions on the web page.
 
 2) Once you have the anaconda installation ready, create a virtual environment for our course:
 
+Either from the provided `environment.yml` file:
+
+```bash
+# assuming the repository is in this directory
+cd pycon-cz-2019-workshop
+
+conda env create -f environment.yml
+```
+
+or manually:
 ```bash
 conda create -n pycon-workshop python=3.7
 conda activate pycon-workshop
-conda install pandas matplotlib seaborn sqlalchemy html5lib beautifulsoup4 xlrd
-conda install jupyter
+conda install pandas matplotlib seaborn jupyter sqlalchemy html5lib beautifulsoup4 xlrd
+conda install -c conda-forge -c plotly plotly plotly_express
 conda install jupyterlab   # Optional
 ```
+
 
 ## Help
 
