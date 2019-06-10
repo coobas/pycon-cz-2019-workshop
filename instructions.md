@@ -4,7 +4,9 @@ Welcome to workshop instructions. Please, read them carefully.
 
 ## Prerequisites
 
-- Bring your own computer and have required software ready.
+- Bring your own computer. Note that the Python distribution can easily eat 2 GB of disk space and that the repository with working data will occupy another ~1 GB. We also strongly recommend to have a computer with 8 GB of RAM (although 4 GB should be workable).
+
+- Have the required software ready.
 
 - Understand Python language.
 
