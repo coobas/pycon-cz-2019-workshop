@@ -60,6 +60,23 @@ conda install -c conda-forge -c plotly plotly plotly_express
 conda install jupyterlab   # Optional
 ```
 
+## How to start
+
+Once you have everything cloned and installed, start the jupyter notebook server
+and click the `table_of_contents.ipynb` notebook in the browser window
+that has been opened for you.
+
+```bash
+cd notebooks
+jupyter notebook
+```
+
+Note: You can use jupyterlab as well
+
+```bash
+cd notebooks
+jupyter lab
+```
 
 ## Help
 
