@@ -2,10 +2,11 @@
 
 [PyCon CZ 2019, PyData track workshop](https://cz.pycon.org/2019/programme/workshops/8/#main)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/coobas/pycon-cz-2019-workshop/master)
 
 ## Instructions
 
-Please read and follow [the workshop instructions](instructions.md) carefully. 
+Please read and follow [the workshop instructions](instructions.md) carefully.
 
 We are *progressively updating* this repository. Ideally, *clone or update this repository* the day before the workshop starts.
 
